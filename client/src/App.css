@@ -1,0 +1,25 @@
+.page-background {
+  position: relative;
+  background-image: url("E1.jpg") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.page-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.nav-content {
+  position: relative;
+  z-index: 2;
+}
+

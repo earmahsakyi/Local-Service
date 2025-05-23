@@ -1,0 +1,28 @@
+.welcome-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: white;
+  position:absolute;
+  margin-top: 100px;
+  z-index: 2;
+  ;
+}
+
+.welcome-heading {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.welcome-heading .highlight {
+  color: #00e676; /* Light green highlight */
+}
+
+.welcome-description {
+  font-size: 1.4rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
